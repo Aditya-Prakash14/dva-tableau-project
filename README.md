@@ -7,7 +7,7 @@ This project analyzes a used cars dataset to understand the main factors that in
 
 The dataset used in this project is `vehicles.csv`, which contains 15,000 sampled rows and 26 columns. This provides a strong foundation for dataset understanding, data cleaning, exploratory data analysis (EDA), feature preparation, model building, and evaluation.
 
-**[View Interactive Tableau Dashboard](https://public.tableau.com/)** *(Update with your Tableau Public link)*
+**[View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/dev.kumar.singh4866/viz/Craigslist_Used_Cars_Dataset_WorkBook_17773871937060/Dashboard1-MARKETOVERVIEW)**
 
 ## Business Problem
 Used car buyers, sellers, and dealerships need realistic pricing guidance. Listing prices are influenced by many factors such as vehicle age, mileage, manufacturer, fuel type, transmission, condition, and location. Without a data-driven approach, pricing decisions can be inconsistent and inefficient.
@@ -102,6 +102,16 @@ Even for a solo capstone, these can be used as responsibility areas:
 - Tushar Varma
 - Ishita Singh
 - Atharv Soni
+
+## Work Done by Team Members
+
+| Team Member | Responsibilities |
+|---|---|
+| **Dev Singh** | Tableau Dashboard & Visualizations |
+| **Aditya Prakash** | Raw Data to Cleaned Data |
+| **Atharv Soni** | Data Pipeline & Jupyter Notebooks |
+| **Ishita Singh** | Data Pipeline & Jupyter Notebooks |
+| **Tushar Varma** | Final Report, ETL, & Dataset Analysis |
 
 ## Dataset Note
 The raw dataset is stored locally in `data/raw/vehicles.csv`. Because of its size, it should remain out of version control and be referenced in project documentation instead of being uploaded to GitHub directly.
