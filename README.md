@@ -1,9 +1,13 @@
+![Tableau Logo](https://www.tableau.com/sites/default/files/2021-05/Tableau-Logo-for-Social.png)
+
 # Used Cars Price Prediction Capstone
 
 ## Project Overview
 This project analyzes a used cars dataset to understand the main factors that influence listing prices and to build predictive models for estimating used car prices from listing features.
 
 The dataset used in this project is `vehicles.csv`, which contains 15,000 sampled rows and 26 columns. This provides a strong foundation for dataset understanding, data cleaning, exploratory data analysis (EDA), feature preparation, model building, and evaluation.
+
+**[View Interactive Tableau Dashboard](https://public.tableau.com/)** *(Update with your Tableau Public link)*
 
 ## Business Problem
 Used car buyers, sellers, and dealerships need realistic pricing guidance. Listing prices are influenced by many factors such as vehicle age, mileage, manufacturer, fuel type, transmission, condition, and location. Without a data-driven approach, pricing decisions can be inconsistent and inefficient.
@@ -91,6 +95,13 @@ Even for a solo capstone, these can be used as responsibility areas:
 - Baseline regression models
 - Final comparison of model results
 - Capstone report / presentation
+
+## Contributors
+- Aditya Prakash
+- Dev Singh
+- Tushar Varma
+- Ishita Singh
+- Atharv Soni
 
 ## Dataset Note
 The raw dataset is stored locally in `data/raw/vehicles.csv`. Because of its size, it should remain out of version control and be referenced in project documentation instead of being uploaded to GitHub directly.
