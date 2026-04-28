@@ -59,7 +59,7 @@ A secondary goal is:
 
 ## Project Structure
 ```text
-Section-D_Group-13_Used_Cars_Market_Analysis/
+DVA-TABLEAU PROJECT
 ├── DVA-focused-Portfolio/
 ├── DVA-oriented-Resume/
 ├── data/
