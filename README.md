@@ -63,21 +63,19 @@ A secondary goal is:
 
 ## Project Structure
 ```text
-DVA-TABLEAU PROJECT
-├── DVA-focused-Portfolio/
-├── DVA-oriented-Resume/
-├── data/
+dva-tableau-project/
+├── Data/
 │   ├── raw/
+│   │   └── vehicles_raw.csv
 │   └── processed/
-├── docs/
+│       └── vehicles_cleaned.csv
 ├── notebooks/
-├── reports/
-├── scripts/
-├── tableau/
-│   └── screenshots/
+│   ├── 01_extraction.ipynb
+│   ├── 02_cleaning.ipynb
+│   └── 03_eda.ipynb
 ├── README.md
-├── requirements.txt
-└── .gitignore
+├── .gitignore
+└── requirements.txt
 ```
 
 ## Roles / Work Buckets
