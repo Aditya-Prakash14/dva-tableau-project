@@ -32,6 +32,24 @@ A secondary goal is:
 - Build baseline machine learning models for price prediction.
 - Compare model performance using regression metrics.
 - Present business insights and recommendations.
+- Run the ETL pipeline to produce a clean, standardized dataset.
+
+## ETL Pipeline
+
+The pipeline script lives in `scripts/etl_pipeline.py` and can be run from the project root:
+
+```bash
+python scripts/etl_pipeline.py \
+    --input  Data/raw/vehicles_raw.csv \
+    --output Data/processed/vehicles_cleaned.csv
+```
+
+| Step | Function | What it does |
+|---|---|---|
+| 1 | `normalize_columns` | Strips whitespace, lower-cases, replaces special chars with `_` |
+| 2 | `basic_clean` | Drops duplicate rows, resets index, strips string whitespace |
+| 3 | `build_clean_dataset` | Reads raw CSV → applies cleaning → returns DataFrame |
+| 4 | `save_processed` | Writes cleaned CSV, auto-creates output directory |
 
 ## Project Workflow
 1. Define the problem and success criteria.
@@ -73,6 +91,8 @@ dva-tableau-project/
 │   ├── 01_extraction.ipynb
 │   ├── 02_cleaning.ipynb
 │   └── 03_eda.ipynb
+├── scripts/
+│   └── etl_pipeline.py
 ├── README.md
 ├── .gitignore
 └── requirements.txt
